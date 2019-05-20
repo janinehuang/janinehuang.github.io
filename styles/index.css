@@ -179,6 +179,23 @@ a.button1:hover {
         padding-bottom: 50px;
     }
 }
+@media (max-width: 371px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    .about {
+        height: 150%;
+    }
+    .blog-resume {
+        height: 120%;
+    }
+    .contact {
+        height: 75%
+    }
+    .navigation {
+        font-size: 1.3em;
+    }
+}
 .about-img {
     width: 90%;
     text-align: center;
@@ -191,6 +208,7 @@ a.button1:hover {
     padding-top: 10px;
     padding-bottom: 30px;
 }
+
 i {
     color: #bababa;
     text-align: center;
