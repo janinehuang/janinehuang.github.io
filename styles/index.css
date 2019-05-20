@@ -1,0 +1,198 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+    padding-top: 0;
+    letter-spacing: 7px;
+    font-size: 4.2em;
+    position: absolute;
+    text-size-adjust: auto;
+    top: 85%;
+    margin-bottom: 0;
+    left: 5%;
+}
+h2 {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin-top: 0;
+    color: #bababa;
+    font-size: 2.3em;
+    width: 100%;
+    letter-spacing: 3px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+a {
+    color: #292c27;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+a:hover {
+    text-decoration: none;
+    color: #bababa;
+}
+a:active {
+    text-decoration: none;
+    color: #bababa;
+}
+a:visited {
+    text-decoration: none;
+}
+p {
+    /*font-family: adobe-garamond-pro, serif;*/
+    font-family: 'Nunito', sans-serif;
+    font-weight:300;
+    text-align: center;
+    color: #bababa;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+.home {
+    background-image: url("../images/mountain.jpg");
+
+    /* Full height */
+    height: 100%;
+    position: relative;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: slategray;
+}
+.logo {
+    height: 25%;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.navigation {
+    text-align: right;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    display:table-cell;    /*Add this*/
+    vertical-align: middle;
+    font-size: 1.15em;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
+.about {
+    height: 80%;
+    background-color: #393c36;
+}
+#about-resume {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    color: #bababa;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+}
+.projects {
+    height: 80%;
+    background-color: #bababa;
+}
+#proj-h2 {
+    color: #393c36;
+}
+.blog-resume {
+    height: 60%;
+    background-color: #393c36;
+}
+.contact {
+    height: 50%;
+    background-color: #292c27;
+}
+#footer {
+    color: #5a5b58;
+    font-size: 0.8em;
+}
+a.button1 {
+    text-align: center;
+    font-size: 1.0em;
+    display: inline-block;
+    padding: 1.2em 1.2em;
+    border:0.1em solid #bababa;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #bababa;
+    transition: all 0.2s;
+}
+a.button1:hover {
+    color:  #393c36;
+    background-color: #bababa;
+}
+@media all and (max-width:30em) {
+    a.button1{
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+.yeehaw {
+    padding-bottom: 0px;
+}
+
+@media (max-width: 575px) {
+    .blog-resume {
+        height: 80%;
+    }
+    .yeehaw {
+        padding-bottom: 100px;
+    }
+}
+@media (max-width: 991px) {
+    .about {
+        height: 90%;
+    }
+}
+@media (max-width: 759px) {
+    .about {
+        height: 50em;
+    }
+}
+@media (max-width: 575px) {
+    .about {
+        height: 60em;
+    }
+    .about-img {
+        padding-bottom: 50px;
+    }
+}
+.about-img {
+    width: 90%;
+    text-align: center;
+}
+
+.icons {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+i {
+    color: #bababa;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
