@@ -87,7 +87,7 @@ p {
     font-family: 'Nunito', sans-serif;
     display:table-cell;    /*Add this*/
     vertical-align: middle;
-    font-size: 1.15em;
+    font-size: 1.5em;
     position: absolute;
     right: 5%;
     top: 3%;
@@ -122,7 +122,7 @@ p {
 }
 #footer {
     color: #5a5b58;
-    font-size: 0.8em;
+    font-size: 1.0em;
 }
 a.button1 {
     text-align: center;
