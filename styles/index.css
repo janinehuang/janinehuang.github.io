@@ -60,7 +60,7 @@ p {
     font-weight:300;
     text-align: center;
     color: #bababa;
-    font-size: 1.1em;
+    font-size: 1.3em;
     letter-spacing: 1px;
 }
 .home {
@@ -126,7 +126,7 @@ p {
 }
 a.button1 {
     text-align: center;
-    font-size: 1.0em;
+    font-size: 1.3em;
     display: inline-block;
     padding: 1.2em 1.2em;
     border:0.1em solid #bababa;
